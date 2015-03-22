@@ -1,4 +1,3 @@
 dotfiles
 ========
-
-Nothing to see here
+Installs vim-files environment for ya!

@@ -24,7 +24,7 @@ then
   echo "Cause I'm backing up backing up..."
   mv $HOME/.vimrc $HOME/.vimrcbackup
 fi
-cp `dirname $0`/.vimrc $HOME
+curl -LSso $HOME/.vimrc https://raw.githubusercontent.com/stillesjo/vimrc/master/.vimrc
 
 # Run vim and install all the bundles.
 vim +PluginInstall +qall
