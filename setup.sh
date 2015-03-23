@@ -30,4 +30,7 @@ fi
 curl -LSso $HOME/.vimrc https://raw.githubusercontent.com/stillesjo/vimrc/master/.vimrc
 
 # Run vim and install all the bundles.
-vim +PluginInstall +qall
+vim -E -s <<-EOF
+:BundleInstall
+:qall
+EOF
