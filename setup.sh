@@ -12,8 +12,10 @@ mkdir -p $HOME/.vim/autoload
 mkdir  $HOME/.vim/bundle
 mkdir $HOME/.vim/colors
 
+
+
 # Install pathogen
-curl -LSso $HOME/.vim/autoload/pathogen.vim https://tpo.pe/pathogen.vim
+curl -LSso $HOME/.vim/autoload/pathogen.vim https://raw.githubusercontent.com/tpope/vim-pathogen/master/autoload/pathogen.vim
 
 # Install colorschemes
 curl -LSso $HOME/.vim/colors/codeschool.vim https://raw.githubusercontent.com/flazz/vim-colorschemes/master/colors/codeschool.vim
